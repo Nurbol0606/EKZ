@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Josefin Sans, sans-serif;
+    border-saz
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin-inline: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+body {
+    background: rgba(233, 198, 186, 0.896)
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-text a {
+    color: rgba(68, 99, 129, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header-text button {
+    width: 160px;
+    height: 44px;
+    background: linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.image .img1 {
+    position: relative;
+    right: 80px;
+    top: 40px;
+}
+
+.image .img2 {
+    position: relative;
+    bottom: 600px;
+    right: 100px;
+}
+
+.main-text h4 {
+    font-size: 21px;
+    color: rgb(93, 100, 108);
+    font-weight: 500;
+}
+
+.main-text h1 {
+    font-size: 50px;
+    width: 340px;
+    color: rgb(245, 140, 140);
+    font-weight: 600;
+}
+
+.main-text span {
+    color: rgb(82, 80, 80);
+    font-weight: 600;
+}
+
+.main-text p {
+    width: 450px;
+    color: rgba(130, 111, 140, 1);
+    line-height: 24px;
+}
+
+.main-text button {
+    background: linear-gradient(92.81deg, #4499D9 11.62%, #6E6CC1 75.39%);
+    width: 196px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+.zone {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: space-around;
+}
+
+.zone-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.zone-text h4 {
+    font-size: 20px;
+    color: rgba(68, 99, 129, 1);
+}
+
+.zone-text h1 {
+    color: rgba(235, 131, 130, 1);
+    font-size: 50px;
+    font-weight: 500;
+    width: 500px;
+}
+
+.zone-text button {
+    width: 180px;
+    height: 44px;
+    background: linear-gradient(92.81deg, #4499D9 11.62%, #6E6CC1 75.39%);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+
+.zone-text p {
+    color: rgba(130, 111, 140, 1);
+    width: 450px;
+    line-height: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo-text h4 {
+    color: rgba(68, 99, 129, 1);
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.logo-text h1 {
+    color: rgba(235, 131, 130, 1);
+    font-size: 50px;
+    font-weight: 600;
+    width: 440px;
+}
+
+.logo-text p {
+    width: 450px;
+    line-height: 21px;
+    color: rgba(130, 111, 140, 1);
+}
+
+.logo-text button {
+    background: linear-gradient(92.81deg, #4499D9 11.62%, #6E6CC1 75.39%);
+    width: 190px;
+    height: 45px;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+
+.enver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enver-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.enver-text h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(68, 99, 129, 1);
+}
+
+.enver-text h1 {
+    color: rgba(235, 131, 130, 1);
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.rin {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rin-text {
+    border: solid 1px;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    background: rgba(251, 218, 207, 1);
+}
+
+.rin-title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rin-text {
+    position: relative;
+    transform: 1.1;
+    background: rgba(9, 20, 60, 1);
+}
+
+.rin-text h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(68, 99, 129, 1);
+}
+
+.rin-text h1 {
+    font-size: 45px;
+    font-weight: 500;
+    color: rgba(235, 131, 130, 1);
+}
+
+.rin-text span {
+    font-size: 20px;
+}
+
+.rin-title button {
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(92.81deg, #4499D9 11.62%, #6E6CC1 75.39%);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
